@@ -1,0 +1,45 @@
+body {
+    background: rgb(143, 228, 243);
+}
+
+img {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 300px;
+    /* border-bottom-style: solid; */
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    border-color: white;
+    /* border-top-left-radius: 0; */
+    /* border-bottom-left-radius: 15px; */
+    height: 400px;
+}
+
+h1 {
+    position: absolute;
+    top: 60px;
+    left: 440px;
+    font-family: cursive;
+    font-size: 40pt;
+    color: white;
+}
+
+h2 {
+    position: absolute;
+    top: 150px;
+    left: 440px;
+    font-family: monospace;
+    font-size: 20pt;
+    color: white;
+}
+
+p {
+    position: absolute;
+    top: 200px;
+    left: 440px;
+    font-family: monospace;
+    font-size: 15pt;
+    color: white;
+}
