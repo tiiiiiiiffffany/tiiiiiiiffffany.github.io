@@ -1,0 +1,54 @@
+html {
+    background-color: #0f0d0e;
+}
+
+table {
+    width: 80%;
+    border-radius: 16px;
+    overflow: hidden;
+    background: rgb(100, 209, 228);
+    background: -webkit-linear-gradient(-68deg, #f078d6, #58e3fc);
+    background: -o-linear-gradient(-68deg, #f078d6, #58e3fc);
+    background: -moz-linear-gradient(-68deg, #f078d6, #58e3fc);
+    background: linear-gradient(-68deg, #f078d6, #58e3fc);
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 40pt;
+    color: white;
+}
+
+table {
+    background-color: transparent;
+}
+
+td {
+    height: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+th {
+    width: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.4;
+    background-color: rgba(255, 255, 255, 0.32);
+}
+
+.row100:hover td {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.hov-column-ver6 {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.row100 td:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
