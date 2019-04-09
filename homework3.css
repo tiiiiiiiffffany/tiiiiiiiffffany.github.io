@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(252, 252, 204);
+    font-family: cursive;
+}
+
+div.navbar {
+    width: 100%;
+}
+
+div.card-body {
+    overflow: hidden;
+    background: rgb(100, 209, 228);
+    background: -webkit-linear-gradient(-68deg, rgb(240, 107, 165), #f19d5d);
+    background: -o-linear-gradient(-68deg, rgb(240, 107, 165), #f19d5d);
+    background: -moz-linear-gradient(-68deg, rgb(240, 107, 165), #f19d5d);
+    background: linear-gradient(-68deg, rgb(240, 107, 165), #f19d5d);
+}
