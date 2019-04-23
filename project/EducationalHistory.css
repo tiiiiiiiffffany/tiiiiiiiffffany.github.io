@@ -1,0 +1,60 @@
+div.words {
+    overflow: scroll;
+    height: 300px;
+    background-color: #0de6d7;
+    color: white;
+}
+
+div.scrollspy {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.nav {
+    color: #0de6d7;
+}
+
+div.card {
+    border: 0;
+    margin-left: 50px;
+}
+
+div.card1 {
+    margin: 30px;
+}
+
+div.card2 {
+    margin: 30px;
+}
+
+div.card3 {
+    margin: 30px;
+}
+
+div.card1 img {
+    height: 200px;
+}
+
+div.card2 img {
+    height: 200px;
+}
+
+div.card3 img {
+    height: 200px;
+}
+
+div.card-body {
+    color: white;
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    background: rgb(100, 209, 228);
+    background: -webkit-linear-gradient(-68deg, #3ae8eb, #18eebc);
+    background: -o-linear-gradient(-68deg, #3ae8eb, #18eebc);
+    background: -moz-linear-gradient(-68deg, #3ae8eb, #18eebc);
+    background: linear-gradient(-68deg, #3ae8eb, #18eebc);
+}
+
+div.Home {
+    margin-left: 500px;
+}
