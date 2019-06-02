@@ -1,0 +1,203 @@
+nav {
+    background: #f8f002;
+    background: -webkit-linear-gradient(-68deg, #eb883d, #f8f002);
+    background: -o-linear-gradient(-68deg, #eb883d, #f8f002);
+    background: -moz-linear-gradient(-68deg, #eb883d, #f8f002);
+    background: linear-gradient(-68deg, #eb883d, #f8f002);
+}
+
+a.navbar-brand {
+    color: white;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+    color: white;
+}
+
+body {
+    background-color: #f7f8fa;
+}
+
+.name {
+    font-size: 14px;
+    font-family: "cursive";
+    color: #212121;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.price {
+    color: #6bf0da;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.image {
+    width: 160px;
+    height: 200px;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.item {
+    height: 300px;
+    position: relative;
+    border: none;
+    background: #f9c747;
+    text-align: center;
+    background-clip: border-box;
+    background-image: none;
+    background-origin: padding-box;
+    margin-bottom: 20px;
+    margin-left: 14px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 34px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.item:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    transform: translate3d(-5px, -5px, 0);
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+#tab-demo {
+    width: 350px;
+    height: 200px;
+}
+
+#tab-demo>ul {
+    display: block;
+    margin: 0;
+    list-style: none;
+}
+
+.tab-title {
+    list-style: none;
+}
+
+#tab-demo>ul>li {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'cursive';
+    color: f7f8fa;
+    margin: 0 -1px -1px 0;
+    border: 2px solid #f9c747;
+    height: 25px;
+    line-height: 25px;
+    background: #f9c747;
+    padding: 0 15px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#tab-demo>ul>li a {
+    color: #000;
+    text-decoration: none;
+}
+
+#tab-demo>ul>li.active {
+    border-bottom: 1px solid #f5f5f5;
+    background: #f5f5f5;
+}
+
+#tab-demo>.tab-inner {
+    clear: both;
+    color: #000;
+    border: 1px #BCBCBC solid;
+}
+
+.tab-inner {
+    padding: 0px;
+    height: 50px;
+}
+
+footer {
+    /* 設定footer的高度 */
+    height: 40px;
+    box-sizing: border-box;
+    /* 設定footer絕對位置在底部 */
+    position: fixed;
+    bottom: 0px;
+    /* 展開footer寬度 */
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #9E9E9E;
+    color: #908f8f;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+content {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+div.introduction h.heading {
+    font-family: cursive;
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+div.introduction p {
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+}
+
+div.introduction {
+    margin-top: 10px;
+    background-image: url('./Screen Shot 2019-05-29 at 9.34.03 PM.png');
+    width: 100%;
+    background-repeat: repeat;
+}
+
+div.page {
+    backface-visibility: hidden;
+}
+
+.container div.form-group div.col button {
+    background-color: #f7f8fa;
+    color: #f9c747;
+    border: 2px solid #f9c747;
+}
+
+.container div.form-group div.col button:hover {
+    background-color: #f9c747;
+    color: white;
+}
+
+div.starsign {
+    margin-left: 100px;
+}
+
+div.card1 {
+    margin-left: 200px;
+    width: 50%;
+}
+
+#tab-demo {
+    margin-top: 100px;
+}
