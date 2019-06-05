@@ -63,7 +63,7 @@ var dealFive = () => {
 var guessIt = () => {
 
     var usernumber = Number(inputnumber.value)
-    usernumber = -1
+   
     if (usernumber >= 0 && usernumber <= 21) {
         window.open('./explaintarots/' + (usernumber + 1) + '.html ', '牌意', config = 'height=500,width=1200');
     } else {
