@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>決策之鑰</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./decision.css">
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-lg ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">探索未知</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./tarot.html">塔羅牌占卜</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./decision.html">決策之鑰</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="decision" style="text-align: center">
+        <h class="heading text-center">決策之鑰</h>
+        <p>沒有人天生就懂得如何做對決定<br>人生中卻又無時不刻不需作出抉擇<br>現在放下憂慮與焦躁<br>讓自然的力量替你做出選擇<br>替你決定未來
+        </p>
+    </div>
+    <div class="explanation" style="text-align: center">
+        <p>把想詢問的事情輸入在下列空格中<br>輸入完畢點選揭曉決定鈕<br>自然的力量將告訴你其為你做出的決策<br>
+        </p>
+    </div>
+    <center>
+
+        <div>
+            <form>
+                <p>我應該要</p><input id="inputquestion" type="text" name="question">
+                <p>嗎？</p>
+                <input onclick="answerIt()" id="inputquestionbutton" type="button" class="btn btn-primary" value="揭曉決定">
+            </form>
+        </div>
+        <div id=answer>
+            <p></p><br>
+            <h id=heading>自然力量認為你：</h>
+            <p id="answerquestion"></p>
+
+            <input onclick="reload()" id="reloadbutton" type="button" class="btn btn-primary" value="重新詢問">
+        </div>
+    </center>
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="text-center">
+            2019 &copy; Tiff@NTU
+        </div>
+
+    </footer>
+    <!-- 引入 Bootstrap 的 JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- 引入我們自己寫的 JavaScript -->
+    <script src="./decision.js"></script>
+
+</body>
+
+</html>
